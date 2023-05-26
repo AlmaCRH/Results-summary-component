@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className="justify-self-center">
         <h6 >Summary</h6>
-        <div className="flex space-x-40 justify-center  bg-red-200 w-80 h-11">
+        <div className="flex space-x-40 justify-center a bg-red-200 w-80 h-11">
           <p>Reaction</p>
           <p>80/100</p>
         </div>
