@@ -9,7 +9,7 @@ function App() {
   return (
     <container className="container min-w-[375px] max-w-[1440px] h-full sm:flex justify-center sm:items-center drop-shadow-2xl">
       <div className="min-w-[375px] max-w-[1440px] flex flex-col sm:flex-row sm:bg-white sm:rounded-r-xl sm:rounded-l-[35px]">
-        <div className="mx-auto w-full h-96 sm:w-96 sm:h-[400px] flex sm:rounded-[40px] flex-col items-center bg-gradient-to-t from-indigo-700 to-blue-500 max-[639px]:rounded-b-[35px] p-5">
+        <div className="mx-auto w-full h-96 sm:w-96 sm:h-[400px] flex sm:rounded-[40px] flex-col items-center bg-gradient-to-t from-violet-800/90 to-blue-500 max-[639px]:rounded-b-[35px] p-5">
           <p className="text-white/50">Your result</p>
           <div className="flex justify-center flex-col w-36 h-36 mt-3 mb-5 bg-gradient-to-t from-indigo-600/10 to-blue-800 rounded-full">
             <h1 className="h-20 text-7xl text-white">76</h1>
@@ -46,7 +46,7 @@ function App() {
             <p className="h-5 text-black font-semibold">72</p>
             <p className="h-5 text-black/30">/100</p>
           </div>
-          <div className="flex justify-center items-center bg-blue-950/90 hover:bg-gradient-to-t from-indigo-700 to-blue-500 w-80 h-12 rounded-full justify-self-center">
+          <div className="flex justify-center items-center bg-blue-950/90 hover:bg-gradient-to-t from-violet-800/90 to-blue-500 w-80 h-12 rounded-full justify-self-center">
             <button className="w-40 flex justify-center text-white">
               Continue
             </button>
